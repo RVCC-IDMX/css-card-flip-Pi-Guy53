@@ -14,3 +14,27 @@ $display-font: $font;
 $display-weight: 900;
 $display-spacing: 0.15em;
 $display-title-size: 4rem;
+
+@font-face {
+    font-family: "spaceMono";
+    src: url('../../fonts/Space_Mono/SpaceMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: "spaceMono";
+    font-style: italic;
+    src: url('../../fonts/Space_Mono/SpaceMono-Italic.ttf');
+}
+
+@font-face {
+    font-family: "spaceMono";
+    font-weight: bold;
+    src: url('../../fonts/Space_Mono/SpaceMono-Bold.ttf');
+}
+
+@font-face {
+    font-family: "spaceMono";
+    font-weight: bold;
+    font-style: italic;
+    src: url('../../fonts/Space_Mono/SpaceMono-BoldItalic.ttf');
+}
